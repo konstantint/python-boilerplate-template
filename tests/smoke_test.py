@@ -13,10 +13,10 @@ def test_smoke():
         shutil.rmtree('tmp')
     os.mkdir('tmp')
     os.chdir('tmp')
-    check_call("paster create -t python_boilerplate --config=../tests/smoke_test_config.cfg --no-interactive python-boilerplate-test")
+    check_call("paster create -t python_boilerplate --config=../tests/smoke_test_config.cfg --no-interactive python-boilerplate-test".split())
     assert(os.path.exists('python-boilerplate-test/src/python_boilerplate_test/pythonboilerplatetest/__init__.py'))
     os.chdir('python-boilerplate-test')
-    check_call("python bootstrap.py")
+    check_call("python bootstrap.py".split())
     check_call("bin/buildout")
     if os.path.exists("bin/py.test.exe"):
         check_call("bin/py.test.exe")

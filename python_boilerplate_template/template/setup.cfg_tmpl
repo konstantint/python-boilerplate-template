@@ -1,0 +1,6 @@
+[pytest]
+addopts = src/{{egg}}
+         --ignore=src/{{egg}}/setup.py
+         --ignore=bootstrap.py
+         --doctest-modules
+norecursedirs=*.egg bin

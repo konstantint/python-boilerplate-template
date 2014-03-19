@@ -26,7 +26,7 @@ version = '1.0'
 
 setup(name='python_boilerplate_template',
       version=version,
-      description="PasteScript template for initializing a new Python project",
+      description="PasteScript template for initializing a new buildout/pytest/travis/setuptools-enabled Python project",
       long_description=open("README.rst").read(),
       classifiers=[ # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 3 - Alpha',

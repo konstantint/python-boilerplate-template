@@ -1,1 +1,2 @@
-include README.rst CHANGELOG.txt
+recursive-include python_boilerplate_template/template *
+include README.rst CHANGELOG.txt LICENSE

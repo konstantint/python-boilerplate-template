@@ -44,7 +44,7 @@ setup(name='python_boilerplate_template',
       license='MIT',
       packages=find_packages(exclude=['examples', 'tests']),
       include_package_data=True,
-      zip_safe=True,
+      zip_safe=False,
       tests_require=['pytest'],
       cmdclass={'test': PyTest},
       

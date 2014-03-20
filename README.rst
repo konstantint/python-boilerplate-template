@@ -172,6 +172,7 @@ References
 ----------
 
   * PyPI Page: http://pypi.python.org/pypi/python_boilerplate_template
+  * Github: https://github.com/konstantint/python-boilerplate-template
   * Blog post: http://fouryears.eu/2014/03/19/structure-of-a-python-project/
   * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`_, `[2] <https://pypi.python.org/pypi/python-package-template/>`_, `[3] <https://github.com/vital-fadeev/python-package-template>`_.
 

@@ -21,7 +21,7 @@ Note that the package is a plugin to the ``paster`` tool. The ``paster`` tool is
 Usage
 -----
 
-To initialize a directory layout for a new project, ensure that the ``paster`` is in your path and run::
+To initialize a directory layout for a new project, ensure that ``paster`` is in your path and run::
 
     $ paster create -t python_boilerplate <project_name>
     
@@ -78,7 +78,7 @@ The next thing to do after having created the project layout is to add the code 
 
 **If you decided in favor of Option 2**:
 
-  - Create a version control repository under the project root (i.e. in this directory). The Git/Github example above applies, except for the first ``cd`` line.
+  - Create a version control repository under the project root. The Git/Github example above applies, except for the first ``cd`` line.
   - Drop ``.travis.yml`` from the ``src/<egg_name>`` directory (leave the one in the project root).
 
 Before you begin developing your code, you may wish to tune the ``src/<egg_name>/README.rst`` file. This file should contain a detailed description of what your package is supposed to do. In particular, when you submit your package to PyPI, the contents of this file will be shown on the package index page. 

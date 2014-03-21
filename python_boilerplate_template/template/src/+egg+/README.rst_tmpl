@@ -27,4 +27,3 @@ The boilerplate code provides a dummy ``main`` function that prints out the word
     >> main()
     
 When the package is installed via ``easy_install`` or ``pip`` this function will be bound to the ``{{egg}}`` executable in the Python installation's ``bin`` directory (on Windows - the ``Scripts`` directory).
-

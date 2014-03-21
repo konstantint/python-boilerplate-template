@@ -24,9 +24,9 @@ class PyTest(TestCommand):
         sys.exit(pytest.main(self.test_args))
 
 
-version = {{repr(version or "0.0")}}
+version = "{{version or "0.0"}}"
 
-setup(name={{repr(project)}},
+setup(name="{{project}}",
       version=version,
       description="{{description or ''}}",
       long_description=open("README.rst").read(),
@@ -34,14 +34,14 @@ setup(name={{repr(project)}},
         'Development Status :: 1 - Planning',
         'Programming Language :: Python'
       ],
-      keywords={{repr(keywords or '')}}, # Separate with spaces
-      author={{repr(author or '')}},
-      author_email={{repr(author_email or '')}},
-      url={{repr(url or '')}},
-      license={{repr(license_name or '')}},
+      keywords="{{keywords or ''}}", # Separate with spaces
+      author="{{author or ''}}",
+      author_email="{{author_email or ''}}",
+      url="{{url or ''}}",
+      license="{{license_name or ''}}",
       packages=find_packages(exclude=['examples', 'tests']),
       include_package_data=True,
-      zip_safe={{repr(bool(zip_safe or False))}},
+      zip_safe={{zip_safe}},
       tests_require=['pytest'],
       cmdclass={'test': PyTest},
       

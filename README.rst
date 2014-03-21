@@ -164,6 +164,8 @@ Common development tasks
     ::
     
          > cd src/
+         > cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+           or
          > paster create <new_package_name>
          
     Then add ``src/<new_package_name>`` to version control and add the directory ``src/<new_package_name>`` to the ``develop`` list in ``buildout.cfg``. Also, if necessary, add ``<new_package_name>`` to the ``[main]`` part of ``buildout.cfg`` and mention it in the ``[pytest]`` configuration section of ``setup.cfg``.

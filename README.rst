@@ -9,6 +9,8 @@ This is a `PasteScript <http://pythonpaste.org/script/>`_ template for generatin
   * `buildout <http://www.buildout.org/>`_ for managing development tools or developing multiple-package projects
   * Usage of the `Travis-CI <https://travis-ci.org/>`_ continuous integration service.
 
+Note that the same template is available for use with `cookiecutter <http://pydanny.com/cookie-project-templates-made-easy.html>`_ via `this repository <https://github.com/konstantint/cookiecutter-python-boilerplate>`_.
+
 Installation
 ------------
 
@@ -175,10 +177,11 @@ References
 
   * PyPI Page: http://pypi.python.org/pypi/python_boilerplate_template
   * Github: https://github.com/konstantint/python-boilerplate-template
+  * Cookiecutter version: https://github.com/konstantint/cookiecutter-python-boilerplate
   * Blog post: http://fouryears.eu/2014/03/19/structure-of-a-python-project/
   * Useful reading
      - http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
-  * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`_, `[2] <https://pypi.python.org/pypi/python-package-template/>`_, `[3] <https://github.com/vital-fadeev/python-package-template>`_, `[4] <http://pydanny.com/cookie-project-templates-made-easy.html>`_.
+  * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`_, `[2] <https://pypi.python.org/pypi/python-package-template/>`_, `[3] <https://github.com/vital-fadeev/python-package-template>`_.
 
 
 Copyright & License
